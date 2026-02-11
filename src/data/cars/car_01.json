@@ -1,0 +1,15 @@
+{
+  "maxSpeed": 58,
+  "accel": 85,
+  "brake": 110,
+  "turnRate": 2.8,
+  "grip": 5.2,
+  "driftGrip": 1.9,
+  "nitroPower": 32,
+  "nitroCapacity": 1,
+  "mass": 1,
+  "visual": {
+    "color": "#28ddff",
+    "accent": "#ff54d7"
+  }
+}
