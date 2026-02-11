@@ -1,0 +1,40 @@
+{
+  "name": "Neon Loop",
+  "author": "MAVA",
+  "laps": 3,
+  "spawnPoint": { "x": 0, "y": 0.2, "z": -36 },
+  "spawnHeading": 1.57,
+  "checkpoints": [
+    { "x": 0, "z": -36, "nx": 0, "nz": 1, "radius": 2.8, "heading": 1.57 },
+    { "x": 28, "z": -20, "nx": -0.7, "nz": 0.7, "radius": 2.8, "heading": 0.8 },
+    { "x": 36, "z": 0, "nx": -1, "nz": 0, "radius": 2.8, "heading": 0 },
+    { "x": 26, "z": 24, "nx": -0.7, "nz": -0.7, "radius": 2.8, "heading": -0.8 },
+    { "x": 0, "z": 36, "nx": 0, "nz": -1, "radius": 2.8, "heading": -1.57 },
+    { "x": -26, "z": 24, "nx": 0.7, "nz": -0.7, "radius": 2.8, "heading": -2.4 },
+    { "x": -36, "z": 0, "nx": 1, "nz": 0, "radius": 2.8, "heading": 3.14 },
+    { "x": -26, "z": -24, "nx": 0.7, "nz": 0.7, "radius": 2.8, "heading": 2.4 }
+  ],
+  "walls": [
+    { "ax": -51, "az": -15, "bx": -39, "bz": -39 },
+    { "ax": -39, "az": -39, "bx": -15, "bz": -51 },
+    { "ax": -15, "az": -51, "bx": 15, "bz": -51 },
+    { "ax": 15, "az": -51, "bx": 39, "bz": -39 },
+    { "ax": 39, "az": -39, "bx": 51, "bz": -15 },
+    { "ax": 51, "az": -15, "bx": 51, "bz": 15 },
+    { "ax": 51, "az": 15, "bx": 39, "bz": 39 },
+    { "ax": 39, "az": 39, "bx": 15, "bz": 51 },
+    { "ax": 15, "az": 51, "bx": -15, "bz": 51 },
+    { "ax": -15, "az": 51, "bx": -39, "bz": 39 },
+    { "ax": -39, "az": 39, "bx": -51, "bz": 15 },
+    { "ax": -51, "az": 15, "bx": -51, "bz": -15 }
+  ],
+  "pickups": [
+    { "x": 31, "z": -8, "kind": "nitro" },
+    { "x": 0, "z": 31, "kind": "nitro" },
+    { "x": -31, "z": -8, "kind": "nitro" }
+  ],
+  "decorations": [
+    { "x": 58, "z": 0, "type": "cone" },
+    { "x": -58, "z": 0, "type": "sign" }
+  ]
+}
